@@ -86,7 +86,9 @@ Lighthouse Labs lecture web-flex week2 objects in javascript
       * object.fromEntries()
   3. object notation/ accessing objects
       * dot syntax
+        - when key is known
       * []
+        - when accessing with variable key
       * when do i use which one?
       * what is "this"
   4. iteration over objects
