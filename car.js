@@ -13,6 +13,7 @@ const car = {
   drive: driveCar
 }
 
+// create new objects from car template
 const marty = Object.create(car);
 
 const doc = Object.create(car);

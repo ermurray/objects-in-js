@@ -62,19 +62,19 @@ Lighthouse Labs lecture web-flex week2 objects in javascript
           
         }
       ```
-      * initialize with new keyword
+      * initialize with new keyword to use constructor
       ```javascript
-      const car = {
+      const marty = new Object({
         name: '',
         model: '',
         make: '',
         drive: function() {
           return `I am driving the ${this.name} car`;
         }
-      }
-      const marty = new Object(car);
+      });
 
       ```
+      * Object.create() method to create new instance of an object from template object (see car.js example)
 
   2. assiging new properties
       * define property and value
@@ -90,7 +90,7 @@ Lighthouse Labs lecture web-flex week2 objects in javascript
       * []
         - when accessing with variable key
       * when do i use which one?
-      * what is "this"
+      * what is "this" (see update code in car.js to deal with object creation error in lecture)
   4. iteration over objects
       * for... in
       * js built in methods ie.( Object.entries() Object.keys(), Object.values())
