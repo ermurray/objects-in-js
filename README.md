@@ -102,5 +102,5 @@ Lighthouse Labs lecture web-flex week2 objects in javascript
       * count some properties?
 
 #### **advantages/differences**
-  * constant time
+  * constant time to look up value
   * directly access via key
