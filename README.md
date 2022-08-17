@@ -20,35 +20,85 @@ Lighthouse Labs lecture web-flex week2 objects in javascript
 ## Notes
 
 ### Topic 1: primatives
-  * 
+  * *primative data types*
+    - number
+    - string 
+    - boolean
+    - undefined
+    - null
 
 ### Topic 2: data structures
-  *
+  * *some data structures*
+    - Array
+    - Objects
+    * *some more complex data structures*
+    - Set
+    - linked list
+    - stack
+  
 
+### Topic 2.5:     
+* *special*
+    - NaN
 ### Topic 3:
 #### **what? how?**
   1. how to define an object
-      * initialize with new keyword
       * object literal
+      ```javascript
+        const myStuff = {
+          stuff: 'this is mine'
+        }
+
+        const example = {
+          1: 1,
+          2: 2,
+          3: '',
+          letters: 'asdf',
+          emptyArray: [],
+          nestedObject: {
+            'key': 'value', 
+          } ,
+          myStuff, // myStuff: myStuff
+          
+        }
+      ```
+      * initialize with new keyword
+      ```javascript
+      const car = {
+        name: '',
+        model: '',
+        make: '',
+        drive: function() {
+          return `I am driving the ${this.name} car`;
+        }
+      }
+      const marty = new Object(car);
+
+      ```
+
   2. assiging new properties
       * define property and value
+      ```javascript
+        const obj = {};
+        obj.newKey = 'a new value'
+      ```
       * object initializer/obj literal
       * object.fromEntries()
-      * remove properties
   3. object notation/ accessing objects
       * dot syntax
       * []
       * when do i use which one?
-      * capital "O" Object vrs object
       * what is "this"
   4. iteration over objects
       * for... in
       * js built in methods ie.( Object.entries() Object.keys(), Object.values())
   5. logic/conditionals with objects
       * do i even exist (use truthy or falsey  values)
-      * ways to check with iteration
-      * Object.hasOwn() (there is a caveat to hasOwn) intended replacment for hasOwnProperty() to fix issues
   6. Arrays of Objects
       * now what?
       * format some data?
       * count some properties?
+
+#### **advantages/differences**
+  * constant time
+  * directly access via key
