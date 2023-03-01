@@ -21,86 +21,29 @@ Lighthouse Labs lecture web-flex week2 objects in javascript
 
 ### Topic 1: primatives
   * *primative data types*
-    - number
-    - string 
-    - boolean
-    - undefined
-    - null
+  
 
 ### Topic 2: data structures
   * *some data structures*
-    - Array
-    - Objects
-    * *some more complex data structures*
-    - Set
-    - linked list
-    - stack
+  
   
 
 ### Topic 2.5:     
 * *special*
-    - NaN
+  
 ### Topic 3:
 #### **what? how?**
   1. how to define an object
-      * object literal
-      ```javascript
-        const myStuff = {
-          stuff: 'this is mine'
-        }
-
-        const example = {
-          1: 1,
-          2: 2,
-          3: '',
-          letters: 'asdf',
-          emptyArray: [],
-          nestedObject: {
-            'key': 'value', 
-          } ,
-          myStuff, // myStuff: myStuff
-          
-        }
-      ```
-      * initialize with new keyword to use constructor
-      ```javascript
-      const marty = new Object({
-        name: '',
-        model: '',
-        make: '',
-        drive: function() {
-          return `I am driving the ${this.name} car`;
-        }
-      });
-
-      ```
-      * Object.create() method to create new instance of an object from template object (see car.js example)
-
+     
   2. assiging new properties
-      * define property and value
-      ```javascript
-        const obj = {};
-        obj.newKey = 'a new value'
-      ```
-      * object initializer/obj literal
-      * object.fromEntries()
+    
   3. object notation/ accessing objects
-      * dot syntax
-        - when key is known
-      * []
-        - when accessing with variable key
-      * when do i use which one?
-      * what is "this" (see update code in car.js to deal with object creation error in lecture)
+      
   4. iteration over objects
-      * for... in
-      * js built in methods ie.( Object.entries() Object.keys(), Object.values())
+     
   5. logic/conditionals with objects
-      * do i even exist (use truthy or falsey  values)
+     
   6. Arrays of Objects
-      * now what?
-      * format some data?
-      * count some properties?
+    
 
 #### **advantages/differences**
-  * constant time to look up value
-  * directly access via key
