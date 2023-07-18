@@ -16,16 +16,7 @@ const listOfReceivedData = [
 //      }
 
 const organizeData = (inputData) => {
-  const output = {};
-    inputData.forEach((elem) => {
-      if (!output[elem.type]) {
-       output[elem.type] = [elem.data];
-      } else {
-        output[elem.type].push(elem.data);
-      }
-
-      // !output[elem.type] ? output[elem.type] = [elem.data] : output[elem.type].push(elem.data);
-    })
+ 
 
   return output;
 }
