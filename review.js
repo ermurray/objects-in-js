@@ -1,14 +1,20 @@
-//primatives
+
 const myString = 'stuff';
 const myEmptyString = '';
-const checkFalsy = (stuff) => {
-  if(!stuff) {
-    return console.log('I am falsy', stuff )
-  }
-  return console.log('I am truthy', stuff)
-    
-};
- 
-// checkFalsy(myEmptyString);
+const myNum = 6;
+const myBool = true;
+const nothing = null;
+let unNothing;
 
-//data structures
+const myArray = ['stuff', myString, myNum, 8, myBool, [1,2,3], {}];
+
+const myObject = {};
+
+const stuff = {
+  'myStuff': 'things i own',
+  thisStuff: 6,
+  numStuff: myNum,
+  myBool  //same as 'myBool': myBool 
+}
+
+console.log('stuff object:', stuff);
